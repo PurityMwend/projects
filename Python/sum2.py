@@ -1,0 +1,6 @@
+n = input("Enter the first number: ")
+m = input("Enter the second number: ")
+n = float (n)
+m = float (m)
+sum = (m + n)
+print (f"sum :{sum} " )
