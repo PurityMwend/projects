@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SHELF</title>
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
+
+    
+</head>
+
+    <body>
+        
+        <div class="container">
+            <header class="tm-site-header">
+                <h1 class="tm-site-name">Shelf</h1>
+                <p class="tm-site-description">Your Library Management System</p>
+                
+                <nav class="navbar navbar-expand-md tm-main-nav-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                        <ul class="nav nav-fill tm-main-nav-ul">
+                            <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="books.html">Manage Books</a></li>
+                            <li class="nav-item"><a class="nav-link" href="issue.html">Manage Issue</a></li>
+                            <li class="nav-item"><a class="nav-link" href="members.html">Manage Members</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>    
+                </nav>
+                
+            </header>
+            
+            <div class="tm-main-content">                    
+                <section class="row tm-item-preview tm-margin-b-xl">
+                    <div class="col-12">
+                        <h2 class="tm-blue-text tm-margin-b-p">Book Catalogue</h2>
+                    </div>
+                   
+                <div class="row tm-hightlight tm-margin-b-ll tm-highlight tm-small-pad">
+                    <article class="col-12 col-sm-12 col-md-6 col-lg-6 tm-font-thin mb-md-0 mb-5">
+                        <header class="tm-margin-b-30"><h3 class="tm-font-thin">Are You  a seasoned bookworm? Find Your Next Great Read!</h3></header>
+                        <p>Classics Revisited: Dive Back into Timeless Tales</p>
+                    </article>
+                    <article class="col-12 col-sm-12 col-md-6 col-lg-6 tm-font-thin">
+                        <header class="tm-margin-b-30"><h3 class="tm-green-text tm-font-thin">Explore our extensive collection!</h3></header>
+                        <p>Genre Deep Dives: Explore Every Nook and Cranny of Your Favorite Genre</p>
+                    </article>
+                </div>  
+                 
+                </section>
+
+                <div class="row tm-margin-b-ll">
+                    <article class="col-12 col-sm-12 col-md-4 col-lg-4 mb-md-0 mb-5">
+                        <div class="text-center tm-margin-b-30"></div>
+                        <header class="tm-margin-b-30"><h3 class="tm-blue-text tm-h3">Add Book</h3></header>
+                        <p>Adding a book involves creating a new entry with essential details and additional information to make it discoverable and appealing to users.</p>
+                    </article>
+                    <article class="col-12 col-sm-12 col-md-4 col-lg-4 mb-md-0 mb-5">
+                        <div class="text-center tm-margin-b-30"></div>
+                        <header class="tm-margin-b-30"><h3 class="tm-blue-text tm-h3">Update Book</h3></header>
+                        <p>updating a book allows you to correct any errors in the existing information, add missing details, or keep the book listing current with any relevant changes.</p>
+                    </article>
+                    <article class="col-12 col-sm-12 col-md-4 col-lg-4 mb-md-0 mb-5">
+                        <div class="text-center tm-margin-b-30"></div>
+                        <header class="tm-margin-b-30"><h3 class="tm-blue-text tm-h3">View Books</h3></header>
+                        <p>Get lost in a world of stories. View Books Now!</p>
+                    </article>
+                </div>
+
+
+                         
+                            
+            </div>
+
+            <footer>
+                Copyright &copy; <span class="tm-current-year">2024</span> Library Management System 
+                
+                - Designed by Ochran
+            </footer>    
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+        <script>     
+       
+            $(document).ready(function(){
+                
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());
+
+            });
+
+        </script>             
+
+</body>
+</html>
